@@ -1,0 +1,40 @@
+generated: '2026-07-19'
+method: searched
+source: https://docs.gamebeast.gg/Features/ApiKeys
+docs: https://docs.gamebeast.gg/Features/ApiKeys
+summary:
+  types: [apiKey]
+  api_key_in: [config, header]
+  oauth2_flows: []
+  note: >-
+    Gamebeast uses API-key authentication (no OAuth). Keys are created, shown once,
+    and rotated in the dashboard (https://dashboard.gamebeast.gg). There are two
+    distinct key classes with different scope.
+schemes:
+  - name: SDK Key (public)
+    type: apiKey
+    scope: project
+    audience: client-side / in-game SDK
+    capabilities:
+      - Send engagement markers
+      - Read remote configurations
+      - Read / assign experiments
+      - Read user cohorts
+      - Create / read heatmaps
+    usage:
+      roblox: 'Gamebeast:Setup({ key = "..." })'
+      unity: 'GamebeastSdk.Init("...")'
+    sources: [https://docs.gamebeast.gg/Features/ApiKeys]
+  - name: Server Key (private)
+    type: apiKey
+    scope: organization
+    audience: server-to-server / backend
+    capabilities:
+      - Analytics and query operations
+      - GDPR deletion requests
+      - Marker metadata queries
+      - (superset of SDK Key capabilities)
+    handling: >-
+      Secret shown only once on creation/rotation; never embed in client code or
+      public repositories; rotate immediately if exposed.
+    sources: [https://docs.gamebeast.gg/Features/ApiKeys]
