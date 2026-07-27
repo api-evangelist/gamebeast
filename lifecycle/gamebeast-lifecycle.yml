@@ -1,0 +1,17 @@
+generated: '2026-07-19'
+method: searched
+source: https://docs.gamebeast.gg/Changelogs/2026
+versioning:
+  scheme: date-release-tag
+  current: v26.07.17a
+  docs: https://docs.gamebeast.gg/Changelogs/2026
+  note: 'Pattern v26.MM.DD[letter]; see changelog/gamebeast-changelog.yml'
+deprecation:
+  policy_url: null
+  sunset_header: unknown
+  note: No formal deprecation policy or RFC 8594 Sunset/Deprecation header support is documented publicly.
+sla:
+  url: null
+  uptime_target: null
+status_page: https://status.gamebeast.gg
+deprecated_operations: []

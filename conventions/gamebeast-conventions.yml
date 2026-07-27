@@ -1,0 +1,36 @@
+generated: '2026-07-19'
+method: searched
+source: https://docs.gamebeast.gg
+docs: https://docs.gamebeast.gg
+summary: >-
+  Cross-cutting request/response semantics for the Gamebeast platform. Gamebeast is
+  primarily consumed through engine SDKs (Roblox/Luau, Unity/C#) and a JS/TS backend
+  SDK, plus a server-to-server key surface. Where a behavior is not publicly
+  documented it is recorded as unknown rather than assumed.
+authentication:
+  style: api-key
+  detail: authentication/gamebeast-authentication.yml
+  key_classes:
+    - {name: SDK Key, scope: project, side: client}
+    - {name: Server Key, scope: organization, side: server}
+idempotency:
+  supported: unknown
+  note: No idempotency-key header or retry-safety contract is documented publicly.
+pagination:
+  style: unknown
+  note: Query/analytics results are exposed via the dashboard Query Builder and Server Key query operations; a public paging contract is not documented.
+versioning:
+  style: date-release-tag
+  scheme: v26.MM.DD[letter]
+  detail: See changelog/gamebeast-changelog.yml and lifecycle/gamebeast-lifecycle.yml
+error_envelope:
+  format: unknown
+  note: No public error-code registry or problem+json envelope is documented.
+rate_limiting:
+  signaling: unknown
+  note: Plans are event-volume based (e.g. 5M events/mo Free, scaling on Beast); no request rate-limit headers documented.
+cross_links:
+  authentication: authentication/gamebeast-authentication.yml
+  changelog: changelog/gamebeast-changelog.yml
+  lifecycle: lifecycle/gamebeast-lifecycle.yml
+  packages: packages/gamebeast-packages.yml

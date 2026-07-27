@@ -1,0 +1,38 @@
+# Gamebeast Documentation
+
+> Developer documentation for Gamebeast — the analytics, LiveOps, experiments, and attribution platform for UGC and traditional games. Includes SDK guides (Roblox, Unity) and feature references.
+
+## Docs
+- [Gamebeast](https://docs.gamebeast.gg)
+- [about](https://docs.gamebeast.gg/about)
+- [Platform Changelog 2026](https://docs.gamebeast.gg/Changelogs/2026)
+- [API Keys](https://docs.gamebeast.gg/Features/ApiKeys)
+- [Remote Configurations](https://docs.gamebeast.gg/Features/Configurations)
+- [Data Management](https://docs.gamebeast.gg/Features/DataManagement)
+- [Experiments](https://docs.gamebeast.gg/Features/Experiments)
+- [Funnels](https://docs.gamebeast.gg/Features/Funnels)
+- [Heatmaps](https://docs.gamebeast.gg/Features/Heatmaps)
+- [Dashboard Jobs](https://docs.gamebeast.gg/Features/Jobs)
+- [Engagement Markers](https://docs.gamebeast.gg/Features/Markers)
+- [Query Builder & Boards](https://docs.gamebeast.gg/Features/QueryBuilder)
+- [Retention](https://docs.gamebeast.gg/Features/Retention)
+- [User Cohorts](https://docs.gamebeast.gg/Features/UserCohorts)
+- [User Management](https://docs.gamebeast.gg/Features/UserManagement)
+- [Getting Started](https://docs.gamebeast.gg/GettingStarted)
+- [SDK Services](https://docs.gamebeast.gg/Roblox/API)
+- [Cohorts](https://docs.gamebeast.gg/Roblox/API/Cohorts)
+- [Configs](https://docs.gamebeast.gg/Roblox/API/Configs)
+- [Experiments](https://docs.gamebeast.gg/Roblox/API/Experiments)
+- [Jobs](https://docs.gamebeast.gg/Roblox/API/Jobs)
+- [Markers](https://docs.gamebeast.gg/Roblox/API/Markers)
+- [Installation](https://docs.gamebeast.gg/Roblox/Installation)
+- [Roblox SDK](https://docs.gamebeast.gg/Roblox/Overview)
+- [Configs](https://docs.gamebeast.gg/Unity/API/Configs)
+- [Markers](https://docs.gamebeast.gg/Unity/API/Markers)
+- [Installation](https://docs.gamebeast.gg/Unity/Installation)
+- [Unity SDK](https://docs.gamebeast.gg/Unity/Overview)
+
+## Also see
+- [Gamebeast website](https://gamebeast.gg)
+- [Dashboard](https://dashboard.gamebeast.gg)
+- [Full docs text for LLMs](https://docs.gamebeast.gg/llms-full.txt)

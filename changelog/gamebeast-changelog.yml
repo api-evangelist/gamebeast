@@ -1,0 +1,22 @@
+generated: '2026-07-19'
+method: searched
+source: https://docs.gamebeast.gg/Changelogs/2026
+docs: https://docs.gamebeast.gg/Changelogs/2026
+versioning:
+  scheme: date-release-tag
+  pattern: v26.MM.DD[letter]
+  note: >-
+    26 = year 2026, MM = month, DD = day; trailing letter (a, b, c, d) distinguishes
+    multiple releases on the same date. Platform (not per-SDK) changelog.
+current_version: v26.07.17a
+entries:
+  - {version: v26.07.17a, date: '2026-07-17', type: addition, highlight: 'AI assistant can run dedicated explore steps for multi-part research; improved model tiers via OpenAI Gateway'}
+  - {version: v26.07.16c, date: '2026-07-17', type: addition, highlight: 'AI assistant can build and validate ad-hoc player cohorts and look up experiment configurations'}
+  - {version: v26.07.16b, date: '2026-07-16', type: addition, highlight: 'Email notifications for prepaid balance top-ups and balance-low alerts'}
+  - {version: v26.07.16a, date: '2026-07-16', type: addition, highlight: 'AI assistant can analyze ad-hoc funnels between events; stacked funnel chart visualization'}
+  - {version: v26.07.15d, date: '2026-07-16', type: addition, highlight: 'Query results gain export to CSV and PNG, plus Open in Query Builder'}
+  - {version: v26.07.15c, date: '2026-07-15', type: addition, highlight: 'Community Pulse category added to assistant context picker with Overview option'}
+  - {version: v26.07.15b, date: '2026-07-15', type: fix, highlight: 'Improved filter and breakdown validation for nested arguments'}
+  - {version: v26.07.15a, date: '2026-07-15', type: addition, highlight: 'Community Pulse page gains Ask AI button and suggestions bar'}
+  - {version: v26.07.14b, date: '2026-07-15', type: fix, highlight: 'Fixed breakdown sorting for descending results and experiment groups'}
+  - {version: v26.07.14a, date: '2026-07-14', type: addition, highlight: 'AI assistant can analyze player sentiment across connected sources'}

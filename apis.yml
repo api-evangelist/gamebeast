@@ -1,7 +1,12 @@
 aid: gamebeast
 name: Gamebeast
-description: Gamebeast is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Gamebeast is an AI-first intelligence platform for game studios that unifies
+  analytics, A/B testing, LiveOps, remote configuration, player sentiment analysis,
+  and marketing attribution across Roblox, Unity, Unreal, and custom engines. Studios
+  instrument their game once with a single SDK and use engagement markers, experiments,
+  cohorts, funnels, retention, heatmaps, and a Query Builder to understand player
+  behavior and ship data-driven updates, with an autonomous AI assistant on top.
 url: https://raw.githubusercontent.com/api-evangelist/gamebeast/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +14,105 @@ x-backed-by:
 - a16z
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
+image: https://gamebeast.gg/og-image.png
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
-apis: []
+- Analytics
+- Gaming
+- Game Development
+- LiveOps
+- Experiments
+- A/B Testing
+- Roblox
+- Unity
+- Player Analytics
+- Attribution
+apis:
+- name: Gamebeast SDK Services
+  description: >-
+    The Gamebeast platform surface consumed through the engine SDKs (Roblox/Luau,
+    Unity/C#) and a JS/TS backend SDK, plus a server-to-server key surface for
+    analytics, query, GDPR deletion, and marker metadata. Services include Markers,
+    Configs, Jobs, Experiments, and Cohorts.
+  humanURL: https://docs.gamebeast.gg
+  baseURL: https://api.gamebeast.gg
+  tags:
+  - Analytics
+  - Experiments
+  - LiveOps
+  - Configuration
+  properties:
+  - type: Documentation
+    url: https://docs.gamebeast.gg
+  - type: APIReference
+    url: https://docs.gamebeast.gg/Roblox/API
+  - type: GettingStarted
+    url: https://docs.gamebeast.gg/GettingStarted
+  - type: Authentication
+    url: authentication/gamebeast-authentication.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: DeveloperPortal
+  url: https://docs.gamebeast.gg
+- type: Documentation
+  url: https://docs.gamebeast.gg
+- type: APIReference
+  url: https://docs.gamebeast.gg/Roblox/API
+- type: GettingStarted
+  url: https://docs.gamebeast.gg/GettingStarted
+- type: SignUp
+  url: https://dashboard.gamebeast.gg
+- type: Pricing
+  url: https://gamebeast.gg/#pricing
+- type: TermsOfService
+  url: https://gamebeast.gg/terms
+- type: PrivacyPolicy
+  url: https://gamebeast.gg/privacy
+- type: Support
+  url: https://discord.com/invite/gamebeast
+- type: GitHubOrganization
+  url: https://github.com/GamebeastGG
+- type: StatusPage
+  url: https://status.gamebeast.gg
+- type: ChangeLog
+  url: https://docs.gamebeast.gg/Changelogs/2026
+- type: ChangeLog
+  url: changelog/gamebeast-changelog.yml
+- type: Lifecycle
+  url: lifecycle/gamebeast-lifecycle.yml
+- type: Authentication
+  url: authentication/gamebeast-authentication.yml
+- type: Conventions
+  url: conventions/gamebeast-conventions.yml
+- type: Packages
+  url: packages/gamebeast-packages.yml
+- type: SDKs
+  url: packages/gamebeast-packages.yml
+- type: LLMsTxt
+  url: llms/gamebeast-llms.txt
+- type: DomainSecurity
+  url: security/gamebeast-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

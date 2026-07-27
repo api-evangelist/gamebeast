@@ -1,0 +1,39 @@
+generated: '2026-07-19'
+method: searched
+source: https://docs.gamebeast.gg/GettingStarted
+packages:
+  - language: luau
+    registry: wally
+    name: gamebeast-gg/gamebeast
+    url: https://wally.run/package/gamebeast-gg/gamebeast
+    install: gamebeast-gg/gamebeast@latest
+    repository: https://github.com/GamebeastGG/RobloxSDK
+    official: true
+    notes: Roblox SDK. Also distributed via the Roblox Creator Store plugin (asset 15951241108) and manual GitHub download.
+  - language: csharp
+    registry: github
+    name: GamebeastGG/UnitySDK
+    url: https://github.com/GamebeastGG/UnitySDK
+    install: Add via Unity Package Manager / GitHub
+    repository: https://github.com/GamebeastGG/UnitySDK
+    official: true
+    notes: Unity SDK (C#).
+  - language: javascript
+    registry: npm
+    name: "@gamebeast/node"
+    url: https://www.npmjs.com/package/@gamebeast/node
+    install: npm install @gamebeast/node
+    repository: https://github.com/GamebeastGG/NodeSDK
+    license: Apache-2.0
+    version: 0.1.0
+    official: true
+    notes: JS/TS backend (server-side) SDK. Published by Gamebeast, Inc.
+tools:
+  - language: typescript
+    registry: npm
+    name: clicksuite
+    url: https://www.npmjs.com/package/clicksuite
+    install: npm install clicksuite
+    repository: https://github.com/GamebeastGG/clicksuite
+    official: true
+    notes: ClickHouse migration tool (internal tooling, not a client SDK).
